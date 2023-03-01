@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'DM Sans';
+}
+
+
+body {
+    background-image:  url(images/Image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 50px 150px !important;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+}
+  
+.navbar-brand {
+    display: block;
+    float: none; 
+    text-align: center;
+    color: #fff !important;
+    font-size: 24px !important;
+    font-weight: 700;
+}
+
+.navbar-nav li {
+    margin-right: 25px;
+}
+
+.nav-link, i {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.nav-search {
+    font-size: 16px;
+}
+
+.in-btn {
+    color: rgba(0,0,0,.5);
+    border: none;
+    background: transparent;
+}
+
+.up-btn {
+    width: 120px;
+    border-radius: 100px;
+    height: 40px;
+    color: #fff;
+    background: #482BE7;
+    border: none;
+}
+
+.hero-body h1, .hero-body p {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-body p {
+    font-size: 22px;
+    font-weight: 500;
+}
